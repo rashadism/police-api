@@ -33,7 +33,7 @@ dependencies = [
 [[package]]
 org = "ballerina"
 name = "constraint"
-version = "1.4.0"
+version = "1.5.0"
 dependencies = [
 	{org = "ballerina", name = "jballerina.java"}
 ]
@@ -41,7 +41,7 @@ dependencies = [
 [[package]]
 org = "ballerina"
 name = "crypto"
-version = "2.5.0"
+version = "2.6.2"
 dependencies = [
 	{org = "ballerina", name = "jballerina.java"},
 	{org = "ballerina", name = "time"}
@@ -319,7 +319,7 @@ modules = [
 
 [[package]]
 org = "rashad"
-name = "police_api"
+name = "police_svc"
 version = "0.1.0"
 dependencies = [
 	{org = "ballerina", name = "http"},
@@ -329,6 +329,6 @@ dependencies = [
 	{org = "ballerinax", name = "mysql.driver"}
 ]
 modules = [
-	{org = "rashad", packageName = "police_api", moduleName = "police_api"}
+	{org = "rashad", packageName = "police_svc", moduleName = "police_svc"}
 ]
 
